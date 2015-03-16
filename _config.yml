@@ -1,17 +1,17 @@
 # Site settings
-title: Clean Blog
-header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+title: Cloud Storage For My Brain
+header-img: img/home-clouds.jpg
+email: bbutton@agilestl.com
+description: "My eventually consistent thoughts and musings"
+baseurl: ""
+url: "http://bbutton.github.io"
+twitter_username: brianbuttonxp
+github_username:  bbutton
+facebook_username:  
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 5
+paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]

@@ -6,7 +6,7 @@ description: "Eventually consistent thoughts on Cloud Storage, PaaS, Agile, Extr
 
 {% for post in paginator.posts %}
 <div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">
+    <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            {{ post.title }}
         </h2>
         {% if post.subtitle %}
@@ -15,6 +15,8 @@ description: "Eventually consistent thoughts on Cloud Storage, PaaS, Agile, Extr
         </h3>
         {% endif %}
     </a>
+  <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a>
+  
     <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 <hr>
